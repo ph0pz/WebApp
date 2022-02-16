@@ -30,15 +30,14 @@ def Personal():
         db.session.add(new_note)
         db.session.commit()
         flash('Type added!', category='success')
-        while True:
-            return redirect(url_for("views.match"))
+        return redirect(url_for("views.match"))
         
     return render_template("Personal.html", user=current_user)
 
 @views.route('/match', methods=['GET', 'POST'])
 def match():
     
-    flash("dd")
+
     Notes = Note.query.all()
     for data in Notes:
         if current_user.id == data.user_id:
