@@ -1,0 +1,262 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 779px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin: 60px auto 60px 0;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 689px;
+  background-image: url("component/Desktop\ -\ 4.png");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 20px;
+}
+
+.u-section-1 .u-group-1 {
+  min-height: 337px;
+  width: 384px;
+  background-image: none;
+  margin: 105px 346px 0 auto;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  background-image: none;
+  font-weight: 700;
+  margin: 52px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  margin: 51px 0 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 658px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 568px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 626px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 435px;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-right: 296px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1947px;
+  }
+
+  .u-section-1 .u-image-1 {
+    order: 0;
+    min-height: 326px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-right: 136px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1417px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 205px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 320px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.desktop-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1024px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.desktop-4 .overlap-group {
+  height: 1162px;
+  margin-left: -195px;
+  position: relative;
+  width: 2315px;
+}
+
+.desktop-4 .rectangle-5 {
+  background-color:
+    #575cd0;
+  height: 1098px;
+  left: 195px;
+  position: absolute;
+  top: 54px;
+  width: 1505px;
+}
+
+.desktop-4 .ellipse-13 {
+  background-color: var(--white);
+  border-radius: 427px;
+  height: 854px;
+  left: 234px;
+  position: absolute;
+  top: 78px;
+  width: 854px;
+}
+
+.desktop-4 .personality-is-more {
+  color: var(--white);
+  font-family: var(--font-family-helvetica-bold);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  left: 1195px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 390px;
+}
+
+.desktop-4 .frame-2 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 1100px;
+  left: 375px;
+  min-width: 1940px;
+  padding: 0 10px;
+  position: absolute;
+  top: 53px;
+}
+
+.desktop-4 .create_account_button-1 {
+  height: 1080px;
+  object-fit: cover;
+  width: 1920px;
+}
+
+.desktop-4 .image {
+  height: 652px;
+  left: 92px;
+  position: absolute;
+  top: 32px;
+  width: 923px;
+}
+
+.desktop-4 .image-1 {
+  height: 640px;
+  left: 0;
+  position: absolute;
+  top: 335px;
+  width: 906px;
+}
+
+.desktop-4 .image-2 {
+  height: 648px;
+  left: 417px;
+  position: absolute;
+  top: 82px;
+  width: 917px;
+}
+
+.desktop-4 .image-3 {
+  height: 698px;
+  left: 530px;
+  position: absolute;
+  top: 464px;
+  width: 988px;
+}
+
+.desktop-4 .image-3-1 {
+  height: 109px;
+  left: 195px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/Helvetica-Bold") format("truetype");
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal>* {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.overlay {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay.animate-appear {
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+.overlay.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+}
